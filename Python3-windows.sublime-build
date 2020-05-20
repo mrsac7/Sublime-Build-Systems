@@ -1,0 +1,6 @@
+{
+ "shell_cmd": "py \"$file\" <input.txt > output.txt",
+ "file_regex": "^\\s*File \"(...*?)\", line ([0-9]*)",
+ "selector": "source.py",
+ "cancel": {"kill": true},
+}
